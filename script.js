@@ -1,9 +1,9 @@
 $(function() {
   // 1) Statik JSON veri
   const studentData = [
-    { name: 'Ali',   class: '10A' },
-    { name: 'Ayşe',  class: '11B' },
-    { name: 'Mehmet',class: '12C' }
+    { name: 'Buse',   class: '10A' },
+    { name: 'Özkan',  class: '11B' },
+    { name: 'Ali',class: '12C' }
   ];
 
   const $list = $('#student-list');
