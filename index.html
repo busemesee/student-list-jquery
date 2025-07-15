@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Öğrenci Listesi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>Öğrenci Listesi</h1>
+
+  <form id="student-form">
+    <label>
+      İsim: 
+      <input type="text" id="name" required />
+    </label>
+    <label>
+      Sınıf:
+      <input type="text" id="class" required />
+    </label>
+    <button type="submit">Ekle</button>
+  </form>
+
+  <ul id="student-list"></ul>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
